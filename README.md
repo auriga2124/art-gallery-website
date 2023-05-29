@@ -24,16 +24,19 @@ Users should be able to:
 
 ### Screenshot
 
+Mobile
 ![](./screenshot/mobile.jpg)
 
+Tablet
 ![](./screenshot/tablet.jpg)
 
+Desktop
 ![](./screenshot/desktop.jpg)
 
 ### Links
 
-- Solution URL: [Frontend Mentor solution](https://your-solution-url.com)
-- Live Site URL: [Live site at Netlify](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/art-gallery-website-using-css-grid-and-nested-grid-Nze3v5ronG)
+- Live Site URL: [Live site at Netlify](https://arna-art-gallery-website.netlify.app)
 
 ## My process
 
