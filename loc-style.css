@@ -1,0 +1,128 @@
+.btn-group-b {
+    position: absolute;
+    margin: 0;
+}
+
+.btn-group:hover .arrow-left {
+    background-color: hsl(0, 0%, 8%);
+}
+
+.btn-group:hover .btn {
+    background-color: hsl(24, 56%, 63%);
+}
+
+section {
+    background: hsl(0, 0%, 8%);
+    padding: 0 16px;
+}
+
+section h2 {
+    font-family: 'Big Shoulders Display', serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 0.9;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    padding: 48px 0;
+}
+
+section div h3 {
+    font-family: 'Big Shoulders Display', serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1;
+    color: hsl(24, 56%, 63%);
+    text-transform: uppercase;
+}
+
+section div p {
+    font-family: 'Outfit', serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: hsl(0, 0%, 100%);
+    padding: 0;
+    padding: 20px 0;
+}
+
+section div p:nth-child(3) {
+    padding: 0;
+    padding-bottom: 56px;
+}
+
+footer {
+    background-color: hsl(24, 56%, 63%);
+}
+
+footer p {
+    color: hsl(0, 0%, 8%);
+}
+
+.social-link-black {
+    fill: hsl(0, 0%, 8%);
+}
+
+.social-link-black:hover {
+    fill:hsl(0, 0%, 100%);
+}
+
+/*--- Tablet View ---*/
+@media screen and (min-width: 768px) {
+    .btn-group-b {
+        left: 40px;
+    }
+
+    section {
+        display: flex;
+        gap: 100px;
+        padding: 88px 40px 80px;
+    }
+
+    section h2 {
+        font-size: 55px;
+        padding: 0;
+    }
+
+    section div p {
+        font-size: 18px;
+    }
+
+    section div p:nth-child(3) {
+        font-family: 'Outfit', serif;
+        font-size: 18px;
+        line-height: 1.56;
+        padding-bottom: 0;
+    }
+}
+
+/*--- Desktop View ---*/
+@media screen and (min-width: 900px) {
+    .btn-group-b {
+        left: 156px;
+    }
+
+    section {
+        padding: 104px 165px 128px;
+        gap: 338px;
+    }
+
+    section h2 {
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 1;
+    }
+
+    section div h3 {
+        font-size: 36px;
+    }
+
+    section div p {
+        font-size: 22px;
+        padding-top: 24px;
+        padding-bottom: 32px;
+    }
+
+    section div p:nth-child(3) {
+        font-size: 22px;
+    }
+}
